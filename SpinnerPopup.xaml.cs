@@ -7,5 +7,7 @@ public partial class SpinnerPopup : Popup
 	public SpinnerPopup()
 	{
         InitializeComponent();
+
+        CanBeDismissedByTappingOutsideOfPopup = false;
     }
 }
